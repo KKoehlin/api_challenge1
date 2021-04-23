@@ -1,0 +1,114 @@
+
+body{
+    background-image: url("./assets/Flower_navbar.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: scroll; 
+    
+}
+
+#ghibli_logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+header{
+background-color: white;
+opacity: .5;
+
+}
+
+.container{
+    margin-top: 100px;
+}
+
+
+.main-btn{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid white;
+    background-color: #F9ADBD;
+    height: 55px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+
+
+    transition: .2;
+}
+
+.main-btn:hover{
+    transform: scale(1.04);
+    background-color: #F2708C;
+}
+
+.card-body{ 
+    background-color: white;
+    display: grid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+  
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 4px;
+
+}
+
+.image-container {
+    background-image: url("./assets/Howl.jpg");
+    background-size: cover;
+    height: 250px;
+    background-repeat:no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .card-title {
+    background-color: white;
+    color: black;
+    font-size: 40px; 
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    mix-blend-mode: screen;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 60%;
+  }
+
+  #quote{
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+
+#characterNames{
+    list-style-type: none;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-size: 18px;
+}
